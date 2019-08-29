@@ -22,8 +22,8 @@ class MineProjectBusiness(object):
         time.sleep(5)
         self.driver.wait_activity(MineData().click_loginbutton_id(), 5)
         print(888888888888888)
-        self.driver.find_element_by_id(MineData().send_phoneno_id()).send_keys("18161240187")
-        self.driver.find_element_by_id(MineData().send_password_id()).send_keys("ff757500332")
+        self.driver.find_element_by_id(MineData().send_phoneno_id()).send_keys()
+        self.driver.find_element_by_id(MineData().send_password_id()).send_keys()
         self.driver.find_element_by_id(MineData().click_loginbutton_id()).click()
         time.sleep(3)
         username = self.driver.find_element_by_id(MineData().click_register_longin_id()).text
