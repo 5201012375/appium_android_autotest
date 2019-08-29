@@ -1,0 +1,33 @@
+{
+  "logincontainer":
+  {
+      "click_mine_xpath": "(//android.widget.ImageView[@content-desc=\"icon\"])[5]",
+      "click_register_longin_id": "com.baojun.newterritory:id/me_home_name",
+      "send_phoneno_id": "com.baojun.newterritory:id/login_phone",
+      "send_password_id": "com.baojun.newterritory:id/login_password",
+      "click_loginbutton_id": "com.baojun.newterritory:id/login_next",
+      "click_userimag_id": "com.baojun.newterritory:id/me_home_head",
+      "get_personaldata_elem": "'new UiSelector().className(\"android.widget.TextView\")'[1]",
+      "click_personalheadimage_id": "com.baojun.newterritory:id/me_userinfo_image",
+      "click_changeheadimage_id": "com.baojun.newterritory:id/iv_media_image",
+      "send_username_id": "com.baojun.newterritory:id/me_userinfo_realname",
+      "send_nickname_id": "com.baojun.newterritory:id/me_userinfo_nickname",
+      "click_sexual_id": "com.baojun.newterritory:id/me_userinfo_sixlayout",
+      "click_sexual_man_id": "com.baojun.newterritory:id/me_sex_man",
+      "click_return_id": "'com.baojun.newterritory:id/titlebar_toolbar'[0]",
+      "get_mytitle_element": "com.baojun.newterritory:id/titlebar_title",
+      "click_save_id": "com.baojun.newterritory:id/me_userinfo_loginout"
+
+
+
+
+
+
+
+
+
+
+
+  }
+
+}
