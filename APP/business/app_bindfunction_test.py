@@ -63,8 +63,8 @@ class AppBindTest(InstallStart):
         self.driver.find_element_by_id("com.baojun.newterritory:id/me_home_name").click()
         time.sleep(5)
         self.driver.wait_activity("com.baojun.newterritory:id/login_phone", 20, 2)
-        self.driver.find_element_by_id("com.baojun.newterritory:id/login_phone").send_keys("18161240187")
-        self.driver.find_element_by_id("com.baojun.newterritory:id/login_password").send_keys("ff757500332")
+        self.driver.find_element_by_id("com.baojun.newterritory:id/login_phone").send_keys("")
+        self.driver.find_element_by_id("com.baojun.newterritory:id/login_password").send_keys("")
         loginele = self.driver.find_element_by_id("com.baojun.newterritory:id/login_next")
 
         loginele.click()
@@ -105,7 +105,7 @@ class AppBindTest(InstallStart):
         #增加地址
         add_address = self.driver.find_element_by_id("com.baojun.newterritory:id/mall_eorder_next").click()
         name = self.driver.find_element_by_id("com.baojun.newterritory:id/me_add_shipping_addres_name").send_keys("小明")
-        phone_no = self.driver.find_element_by_id("com.baojun.newterritory:id/me_add_shipping_addres_phone").send_keys("185837053325")
+        phone_no = self.driver.find_element_by_id("com.baojun.newterritory:id/me_add_shipping_addres_phone").send_keys("")
         city = self.driver.find_element_by_id("com.baojun.newterritory:id/me_add_shipping_addres_addres").click()
         self.driver.find_element_by_android_uiautomator('new UiSelector().className("android.widget.TextView").text("内蒙古自治区")').click()
         self.driver.find_element_by_android_uiautomator('new UiSelector().className("android.widget.TextView").text("呼和浩特市")').click()
